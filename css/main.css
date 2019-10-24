@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.5rem;
+}
+
+body .header .top-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .content {
+  padding: 1rem;
+}
+
+body .content .container {
+  position: relative;
+}
+
+body .content .container img {
+  width: 100%;
+  display: block;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+body .content .container img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .content .container .btn-orinet {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+body .content .container .btn-orinet button {
+  border: none;
+  text-transform: uppercase;
+  padding: 0.9rem 1.7rem;
+  width: 50%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+body .content .container .btn-orinet button:hover {
+  background-color: #e65540;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
